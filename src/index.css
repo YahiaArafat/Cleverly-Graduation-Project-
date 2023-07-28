@@ -1,0 +1,1091 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+:root{
+  --bgColor:#131722 ;
+}
+
+body{
+
+  background-color:var(--bgColor) ;
+  font-family: 'Montserrat Alternates';
+  color: #fff;
+}
+.navbar{
+    width: 100%;
+    overflow: auto;
+    margin-top: 5px;
+}
+
+.container-fluid{
+  background-color: rgba(255,255,255,0.4);
+  font-weight: bold;
+  
+}
+
+.navbar-brand{
+  font-size: 30px;
+  padding-left: 40px;
+}
+
+.nav-container{
+  padding-left: 70px;
+}
+
+.nav-reight{
+  padding-right: 70px;
+}
+nav .navbar-brand , nav .nav-link{
+  color: #fff;
+}
+
+.DarkMode{
+  margin: 7px;
+}
+
+.DarkMode:hover{
+  margin: 7px;
+}
+
+/* scrooooollllllllllll*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1c326c;
+}
+
+
+/*end scrooooollllllllll*/
+
+
+/*foooooooooooooter*/
+
+
+.footer{
+  background-color: #24262b;
+  padding: 70px 0;
+  font-family: 'Poppins', sans-serif;
+}
+.footer-content{
+  max-width: 1170px;
+
+  margin: auto;
+}
+.footer-list{
+  list-style: none;
+  padding-inline-start: 0px;
+}
+.footer-row{
+  display: flex;
+  margin-left: 250px;
+  flex-wrap: wrap;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #db2d2e;
+  height: 2px;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 7px;
+}
+.footer-col .social-footer a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-footer a:hover{
+  color: #db2d2e;
+  background-color: #ffffff;
+}
+
+.last{
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+
+/*EEEEENNNNNNddddddddd Foooooooooooooter*/
+
+
+
+
+/*Aboutttttttttttt*/
+.photoAboutBack{
+  background-image: url('./Assets/BookLearn.jpg');
+  background-size: cover;
+  background-repeat: no-repeat ;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.1);
+}
+.test .hhhh{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+
+/*End Aboutttttttttttt*/
+
+/*Coursesssss*/
+
+.UserIconelearning{
+  width: 600px;
+  margin-left: 335px;
+}
+.selpart-container{
+  display: flex;  
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+}
+.selpart-container .select {
+  padding-top: 35px;
+  width: 40%;
+  
+}
+
+.selpart-container .btfiltering{
+  margin: 10px;
+  margin-top: 32px;
+  font-size: 25px;
+  display: inline-flex;
+  padding-left: 30px;
+  padding-right: 10px;
+  text-align: center;
+  line-height: 30px;
+
+}
+
+.TrueIconeCourses{
+  text-align: center;
+  display: inline-flex;
+  margin-left: 10px;
+  padding: 0 24;
+  width: 55px;
+  background-color: rgba(0, 0, 0, .05);
+}
+
+
+.brdr{
+  height: 3px;
+  margin-top: 10px;
+  background-color: #a8a8a83d ;
+}
+
+
+.container-courses img{
+  height: 350px;
+  object-fit: cover;
+  padding-top: 20px;
+  position: relative;
+
+}
+
+.Name-course-Corses h1{
+  font-weight: bold;
+  font-size: 35px;
+}
+
+
+.WatchCourse{
+  text-align: center;
+  margin-left: 480px;
+  margin-top: -80px;
+  font-size: 20px;
+  position: absolute;
+  
+}
+
+.userBtn{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 10px;
+}
+/*Ennnd Coursesssss*/
+
+
+/*HHHHHHHoooooooome*/
+
+.row-Meeting{
+  border: solid;
+  border-radius: 20px;
+}
+
+.SaveCourse-Home {
+  margin-top: 30px;
+}
+
+.container-addRow .AddIconeHome{
+  margin-top: 70px;
+  margin-left: 480px;
+  align-items: center;
+  width: 300px;
+}
+  
+.btnAdd{
+  text-align: center;
+  display: inline-flex;
+  background-color: rgba(0, 0, 0, .05);  
+}
+
+.container-addRow .btnAdd{
+  font-size: 30px;
+  margin-left: 480px;
+  font-weight: bold;
+  background-color: #712164  ;
+}
+
+.container-photo{
+   justify-content: center;
+}
+
+.container-Video{
+  width: 700px;
+  margin-left: 300px;
+}
+
+.NameUserVideoHome{
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: -40px;
+  margin-bottom: -20px;
+}
+
+.AboutUsIcone{
+  text-align: center;
+  display: inline-flex;
+  margin-left: 150px;
+  padding: 0 24;
+  width: 300px;
+}
+
+.video{
+  display: block;
+ width: 100%;
+ padding-top: 30px;
+
+}
+
+.ChangVideo{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 35px;
+  margin-left: 220px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.NameUserHome{
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+
+}
+
+.SaveCourse-Home{
+  margin-left: 650px;
+}
+
+.About-Home .SaveCourse-Home{
+  text-align: center;
+  display: inline-flex;
+  padding-left: 30px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.TrueIconeHome{
+  text-align: center;
+  display: inline-flex;
+  margin-left: 10px;
+  padding: 0 24;
+  width: 55px;
+  background-color: rgba(0, 0, 0, .05);
+}
+
+
+.container-photo img{
+  height: 350px;
+  object-fit: cover;
+  position: relative;
+  border-radius: 20px;
+  border-width: 5px;
+  border-style: solid ;
+  border-color:  #b7ae9d ;
+}
+
+.ChangPhoto{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.Courses-Home-Row {
+  padding-top: 50px;
+}
+
+.container-courses-Home img{
+  height: 350px;
+  object-fit: cover;
+  position: relative;
+  
+  border-radius: 20px;
+  border-width: 5px;
+  border-style: solid ;
+  border-color:  #b7ae9d ;
+
+}
+
+.About-Home h1{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.WatchCourse-Home{
+  text-align: center;
+  margin-left: 480px;
+  margin-top: -80px;
+  font-size: 20px;
+  position: absolute;
+  
+}
+
+.userBtn-Home{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 10px;
+}
+
+/*EEEdnd HHHHHHHoooooooome*/
+
+/*MMeeeeeting*/
+
+
+.formMeeting{
+
+  margin-top: 330px;
+  margin-left: 50%;
+  margin-bottom: -290px;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 650px;
+  border-radius: 50px;  
+  padding: 30px 30px 50px 50px;
+  background-color: rgba(0, 0, 0, 0.9);
+
+}
+
+.JoinIconeMeeting{
+  margin-bottom: -50px;
+  margin-top: -50px;
+}
+
+.sizeBotMeeting1{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+/*EEEEND MeeeeeeeeTING*/
+
+/*NNNNNNewwww Cooourses*/
+
+.AddCourseIcone{
+  margin-bottom: -30px;
+  margin-top: -40px;
+  margin-left: 170px;
+  width: 150px;
+
+}
+
+.pric{
+  width: 100px;
+  margin-left: 300px;
+}
+.formAddCourse{
+  margin-top: 310px;
+  margin-left: 50%;
+  margin-bottom: -300px;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 650px;
+  border-radius: 50px;  
+  padding: 30px 30px 50px 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.sizeBotMeeting{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+
+/*EEEEENNNNNDDD NNNNNNewwww Cooourses*/
+
+
+/*Ediiiiiit Course*/
+
+.SaveCourse-EditCourse{
+  text-align: center;
+  display: inline-flex;
+  margin-left: 650px;
+  padding-left: 30px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container-photo-EditCourse img{
+  height: 350px;
+  object-fit: cover;
+  position: relative;
+  border-radius: 20px;
+  border-width: 5px;
+  border-style: solid ;
+  border-color:  #b7ae9d ;
+
+}
+
+.container-photo-EditCourse h3{
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container-Icon-EditCourse{
+    display: inline-flex;
+
+}
+
+.SaveCourse-EditCourse{
+  width: 230px;
+  
+}
+
+.videoEditcourse{
+  text-align: center;
+  display: inline-flex;
+  width: 360px;
+}
+
+.liveEditcourse{
+  text-align: center;
+  display: inline-flex;
+  margin-left: 90px;
+  margin-top: 110px;
+  width: 340px;
+}
+
+.QuzeEditcourse{
+  display: inline-flex; text-align: center;
+  display: inline-flex;
+  text-align: center;
+  margin-left: 160px;
+  margin-top: 70px;
+  width: 230px;
+
+}
+.container-Icon-EditCourse .div3{
+  width: 500px;
+  
+}
+
+.container-Icon-EditCourse .h1{
+  margin-top: -7px; 
+  font-weight: bold;
+  margin-left: 30px;
+  width: 300px;
+  font-size: 27px;
+  height: 50px;
+
+
+}
+
+.container-Icon-EditCourse .h2{
+  margin-top: 105px; 
+  margin-left: 90px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 26px;
+  width: 350px;
+  height: 50px;
+
+
+
+}
+
+.container-Icon-EditCourse .h3{
+  margin-top: 50px; 
+  margin-left: 160px;
+  font-weight: bold;
+  font-size: 30px;
+  width: 300px;
+  height: 50px;
+
+
+}
+
+
+.Courses-EditCourse{
+  margin-top: 35px;
+}
+
+.Courses-EditCourse h1{
+  margin-top: 50px;
+  margin-left: 150px;
+  font-size: 70px;
+}
+
+.WatchCourse-EditCourse{
+  text-align: center;
+  margin-left: 190px;
+  margin-top: 60px;
+  font-size: 35px;
+  width: 180px;
+  position: absolute;
+
+}
+
+.deleteIconeHome{
+  text-align: center;
+  display: inline-flex;
+  margin-left: 10px;
+  padding: 0 24;
+  width: 30px;
+  background-color: rgba(0, 0, 0, .05);
+}
+
+.DeleteCourse-EditCourse{
+  text-align: center;
+  display: inline-flex;
+  margin-left: 650px;
+  padding-right: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  width: 205px;
+  font-size: 20px;
+}
+
+/*EEEEEEEENNNNNNNNDDDDDD Ediiiiiit Course*/
+
+
+/*Admin Daaaaaaaataaaaaaaaa*/
+
+.ControlIcone{
+  margin-top: 30px;
+  width: 600px;
+  margin-left: 335px;
+}
+
+.Row-Control h1{
+  
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container-AdminData{
+      display: flex;
+      Justify-content : center;
+      align-items: center;
+}
+
+.table-AdminControl{
+  width: 100%;
+
+}
+
+
+.NewUserIcone{
+  margin-top: 30px;
+  width: 300px;
+  margin-left: 520px;
+  margin-bottom: -30px;
+}
+
+.NewClassIcone{
+  margin-top: 30px;
+  width: 300px;
+  margin-left: 490px;
+  margin-bottom: -30px;
+}
+
+.AddAccount{
+  width: 90%;
+
+}
+
+.AddClass{
+  width: 35%;
+  margin-right: 10px;
+}
+
+.DeleteClass{
+  width: 35%;
+
+}
+
+
+/*Enddddddddddddddddddd Admin Daaaaaaaataaaaaaaaa*/
+
+
+
+/*Deleteeee Course*/
+
+.DeleteCourse{
+  text-align: center;
+  margin-left: 300px;
+  margin-top: -80px;
+  font-size: 20px;
+  position: absolute; 
+}
+
+
+/*EENNNNDDDDDD  Deleteeee Course*/
+
+
+
+
+
+/*QQQQUUUIIIIIZZZZZZ Showwwwww*/
+
+.QuzeShow{
+  padding-top: 50px;
+  text-align: center;
+}
+
+
+.QuzeShow .question-card {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 80%; /* Can be in percentage also. */
+  height: auto;
+
+  /* Visual  */
+  background-color: gray;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.QuzeShow ul {
+  list-style: none;
+}
+
+.QuzeShow li {
+  margin-top: 8px;
+  background-color: #2A2828;
+  padding: 16px;
+  border: 3px solid #2A2828;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.QuzeShow .question-text {
+  color: #E4DD00;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Final Results  */
+
+QuzeShow .final-results {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 50%; /* Can be in percentage also. */
+  height: auto;
+  margin-top: 64px;
+
+  /* Visual  */
+  background-color: gray;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.QuzeShow button {
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+
+  border-radius: 24px;
+}
+
+
+
+/*EEEEEEEnnnndddd       QQQQUUUIIIIIZZZZZZ Showwwwww*/
+
+
+
+/*Creaaattttteee Quuuuuuuiiiiizzzzzzzz*/
+.OptionsQuiz{
+  display: inline-flex;
+}
+
+.container-CreQuiz{
+  width: 100%;
+}
+
+.QuestionIcone{
+  margin-bottom: -30px;
+  margin-top: -40px;
+  margin-left: 460px;
+  width: 160px;
+
+}
+
+.ParentsizeBotQuiz{
+  display: inline-flex;
+ 
+}
+
+.sizeBotQuizNext{
+  text-align: center;
+  margin-left: 850px;
+  margin-top: 30px;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: absolute;
+}
+
+.sizeBotQuizFinsh{
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+  position: absolute;
+}
+
+
+/*EEEEEEENNNNNNNNDDDDDDDDDD Creaaattttteee Quuuuuuuiiiiizzzzzzzz*/
+
+
+/*Wathch Course Video*/
+
+.container-VideoCourse{
+  width: 900px;
+  margin-left: 300px;
+}
+
+.videoWatch{
+  width: 900px;
+  margin-left: -120px;
+  margin-top: 50px;
+}
+/*EEEENNNNNNDDDDDD Wathch Course Video*/
+
+
+
+/*SSSSSSIIIGGGGnnnnnnnn UUUUUUUUUUUUPPPPPPPP*/
+
+.SignUpCountainer{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.SignUpCountainer .videoBG{
+  width: 100%;
+  height: 100%;
+  border-radius: 100px 100px;
+  object-fit: cover;
+}
+
+.SignUpCountainer .lppp{
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: -40px;
+  margin-bottom: 10px;
+}
+
+.SignUpCountainer .Ico{
+ height: 200px;
+ padding-top: 40px;
+ margin-top: -30px;
+ margin-bottom: 10px;
+}
+
+.JoiError{
+  position: absolute;
+  width: 85%;
+  margin-top: -920px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.SupName{
+  display: flex;
+}
+.SignUpCountainer .form{
+  
+    margin-top: -450px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    border-radius: 50px;  
+    padding: 0px 30px 50px 50px;
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+
+.SignUpCountainer .space{
+  margin-left: 15px;
+  text-align: center;
+ 
+}
+
+.SignUpCountainer .sizeBot{
+  width: 250px;
+  
+}
+
+.SignUpCountainer .btn{
+  border: none;
+ 
+}
+
+
+.SignUpCountainer button{
+  border: none;
+}
+
+.SignUpCountainer .lapp{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*EEEEEEEEENNNNNNNNNNDDDDDDD    SSSSSSIIIGGGGnnnnnnnn UUUUUUUUUUUUPPPPPPPP*/
+
+
+
+/* SSSSSSIIIGGGGnnnnnnnn IIIIIIIIIIIInnnnnnnnn*/
+
+
+.SignInCountainer{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.SignInCountainer .videoBG{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.SignInCountainer .lppp{
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: -40px;
+  margin-bottom: 10px;
+}
+
+.SignInCountainer .Ico{
+ height: 140px;
+ margin-top: -40px;
+ margin-bottom: -30px;
+
+}
+
+
+
+.JoiErrorSignIn{
+  position: absolute;
+  width: 80%;
+  margin-left: 30px;
+  margin-top: -180px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.SignInCountainer .formSignIn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 460px;
+    border-radius: 50px;  
+    padding: 30px 30px 50px 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+
+
+.SignInCountainer .space{
+  margin-left: 15px;
+  text-align: center;
+ 
+}
+
+.SignInCountainer .sizeBot{
+  width: 120px;
+  
+}
+
+.SignInCountainer .btn{
+  border: none;
+ 
+}
+
+
+.SignInCountainer button{
+  border: none;
+}
+
+.SignInCountainer .lapp{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*EEEEEEEEENNNNNNNNNNDDDDDDD    SSSSSSIIIGGGGnnnnnnnn IIIIIIIIIIIInnnnnnnnn*/
+
+
+
+/*  Caaaaaaarrrrrrrrrdddddd */
+
+
+.card-form-container {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-form {
+  display: block;
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  height: 500px;  
+  padding: 25px 30px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  background-color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+.expiry-and-cvc-container {
+  display: flex;
+}
+
+.expiration-date-field {
+  display: inline-block;
+  flex: 1 1 auto;
+}
+
+.cvc-field {
+  display: inline-block;
+  flex: 0 0 100px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.btnCard{
+  margin-top: 20px;
+}
+
+.VisaIcon{
+  margin-bottom: 10px;
+  margin-top: -10px;
+  margin-left: 125px;
+  width: 160px;
+}
+/* EEEEEEEEEEEnnnnnnnnnnnndddddd Caaaaaaarrrrrrrrrdddddd */
